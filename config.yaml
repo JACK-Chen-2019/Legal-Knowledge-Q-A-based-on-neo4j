@@ -4,10 +4,10 @@ neo4j:
   user: neo4j
   password: 101010
 
-return_answer: '���ã��������ķ��ɹ���С����ϣ�����԰ﵽ����'
+return_answer: '您好，我是您的法律顾问小冰，希望可以帮到您。'
 
 baidu_api:
-  host: https://aip.baidubce.com/rpc/2.0/kg/v1/cognitive/entity_annotation?charset=UTF-8&access_token=24.dbe3016431cced11c0d1859874df2ea0.2592000.1654223873.282335-26145448
+  host: 
 
 dict_txt:
   law: dict_law/laws.txt
@@ -20,9 +20,9 @@ predict_model:
   url: 'http://pan.dlut.edu.cn/v1/roots/qs3xy63txmzd/files/jv51ddxjryqy?token=x9f6griazcn6vt7k1n878fygeh'
 
 example_questions:
-  example_questions_qa: ['Σ����������������Щ���','���롢�������ְ�����������ʲô��','��������������Ĵ�������Щ��','���̵��·������֣����ʷ�ʲô��']
-  example_questions_predict: ['�����˰�������֪���������ֹ���˷Ƿ�����ǹ֧�ԷǷ����л�ҩǹ֧������������б����鰸�������永��ǹ֧����Ϊ�Ի�ҩΪ�����ܷ��䵯�������ǹ֧������������Ժ��Ϊ�����˰�����Υ������ǹ֧�����涨�Ƿ����л�ҩǹ֧����Ϊ�ѹ��ɷǷ�����ǹ֧��Ӧ����׷�����������μ��ڱ����˰����ֵ�������ʵ����������ʵ�����ɶ�����ᴦ�����߻���ָ�ر����˰����ֵķ�����ʵ�������������̽����ʵ���Ժ����֧�ָ��ݱ�������ʵ������Լ����Σ���̶����ա��л����񹲺͹��̷�����һ�ٶ�ʮ������һ�����ʮ�������������ʮ������һ�����ʮ����֮�涨','2���롢�������ְ�����������ʲô��','2��������������Ĵ�������Щ��']
-  example_action_describe: ['�������̺��ȼ�յ���ͷ��С�Ķ����˲�ƺ������������֣����������ʧ��','������սʱ�����з�����500����󣬲�Ϊ�乩��������','�����ڷɻ��ϱ�����в����Ա���أ����·ɻ�׹�١�']
+  example_questions_qa: ['危害公共卫生罪有哪些子罪？','擅离、玩忽军事职守罪的条件是什么？','容留他人吸毒罪的处罚有哪些？','吸烟导致发生火灾，请问犯什么罪']
+  example_questions_predict: ['被告人安正字明知国家明令禁止个人非法持有枪支仍非法持有火药枪支安正字在其家中被查获归案经鉴定涉案的枪支符合为以火药为动力能发射弹丸的自制枪支能正常击发本院认为被告人安正字违反国家枪支管理规定非法持有火药枪支其行为已构成非法持有枪支罪应依法追究其刑事责任鉴于被告人安正字到案能如实供述犯罪事实依法可对其从轻处罚公诉机关指控被告人安正字的犯罪事实及罪名成立量刑建议适当本院予以支持根据本案的事实、情节以及社会危害程度依照《中华人民共和国刑法》第一百二十八条第一款、第六十七条第三款、第七十二条第一款、第六十四条之规定','2擅离、玩忽军事职守罪的条件是什么？','2容留他人吸毒罪的处罚有哪些？']
+  example_action_describe: ['张三吸烟后把燃烧的烟头不小心丢到了草坪里，导致引发火灾，造成严重损失。','张三在战时资助敌方国家500块大洋，并为其供给武器。','张三在飞机上暴力威胁飞行员返回，导致飞机坠毁。']
 
 UI_params:
   font_size: 12
